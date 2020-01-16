@@ -1,0 +1,76 @@
+.banner 
+{
+    width: 980px;
+    height: 280px;
+    border: 0.001px solid red;
+    margin: auto;
+    
+    background-image: url(fondoimc2.jpg);
+    background-size: 100% 100%;
+    animation: banner 10s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes banner
+{
+    8%, 30%
+    {
+        background-image: url(IMC.png);
+        opacity: 1;
+    }
+    31%, 34%
+    {
+        opacity: 1;
+    }
+    35%, 65%
+    {
+         background-image: url(imccc.jpg);
+         opacity: 1;
+    }
+}
+
+#Tabla1{
+   border: 1px solid red;
+   width: 480px;
+  
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+
+#Cabtab1{
+   background-color: #FF9585;
+   font-weight: bold;
+   color: #ffffff;
+   padding: 2px;
+}
+#Cuerpotab1{
+   padding:4px;
+   background-color:  #FFB385 ;
+   text-align: center;
+}
+#Tabla2{
+   border: 1px solid red;
+   width: 480px;
+  
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+
+
+#Cuerpotab2{
+   padding:4px;
+   background-color:  #FFB385 ;
+   text-align: center;
+}
+
+.bannersalida{
+     width: 980px;
+    height: 280px;
+    border: 0.001px solid red;
+    margin: auto;
+    
+    background-image: url(imccc.jpg);
+    background-size: 100% 100%;
+}
